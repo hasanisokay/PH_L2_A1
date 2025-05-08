@@ -47,8 +47,9 @@ type User = {
 type UserKeys = keyof User; // "id" | "name" | "email"
 
 //Example2:
-In the example below we have a Person type. And now we want to check all the available properties dynamicaly and create a new type Person2.
-If the key is string type then it will keep the previous type, if its not a string then it will be changed to boolean.
+//In the example below we have a Person type.
+//And now we want to check all the available properties dynamicaly and create a new type Person2.
+//If the key is string type then it will keep the previous type, if its not a string then it will be changed to boolean.
 type Person = {
   name: string;
   id: number;
