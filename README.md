@@ -9,7 +9,7 @@ type User1 = {
   name: string;
 };
 
-// Extending the User type
+// Extending the User1 type
 type Student1 = User1 & {
   email: string;
 };
@@ -18,6 +18,7 @@ interface User2 {
   id: number;
   name: string;
 }
+// Extending the User2 interface
 interface Student2 extends User2 {
   email: string;
 }
